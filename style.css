@@ -21,14 +21,28 @@ nav {
   background-color: red;
 }
 
+.jumbotron {
+  height: 90vh;
+  background-image: url("./assets/images/Screenshot.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 25vh 0;
+}
 @media screen and (min-width: 768px) {
   .logo {
     width: 30vw;
   }
+  .jumbotron {
+    height: 50vh;
+    /* height: calc(50vh - 50px); */
+    padding: 3vh 0;
+  }
 }
 
 @media screen and (min-width: 992px) {
-    
+  .jumbotron {
+    height: 65vh;
+    /* height: calc(50vh - 50px); */
+    padding: 10vh 0;
   }
-
-
+}

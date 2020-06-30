@@ -23,11 +23,27 @@ nav {
 
 .jumbotron {
   height: 90vh;
-  background-image: url("./assets/images/Screenshot.png");
+  background-image: url("./assets/images/71+-Python-Programming-Wallpapers-on-WallpaperPlay.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 25vh 0;
+  background-position: 50% 50%;
 }
+
+.details-title {
+  font-weight: 300;
+}
+
+.language {
+  width: 85vw;
+  max-width: 1170px;
+}
+
+.language p {
+  font-size: small;
+  text-transform: uppercase;
+}
+
 @media screen and (min-width: 768px) {
   .logo {
     width: 30vw;
@@ -44,5 +60,11 @@ nav {
     height: 65vh;
     /* height: calc(50vh - 50px); */
     padding: 10vh 0;
+  }
+  .language {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 3rem;
+    align-items: center;
   }
 }

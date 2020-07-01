@@ -64,142 +64,221 @@
     </header>
     <main>
       <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h4 class="lead text-white">
-            This is a modified jumbotron that occupies the entire horizontal
-            space of its parent.
-          </h4>
+        <div class="container pt-5">
           <div
-            class="form-group bg-secondary py-3 px-2 rounded px-md-5 pt-md-4 pb-md-5"
+            class="form-group search py-3 px-2 rounded px-md-5 pt-md-4 pb-md-5"
           >
-            <label for="inputEmail4">Search by keyword</label>
+            <label for="search" class="search-label text-uppercase"
+              >Search by keyword</label
+            >
             <div class="input-group">
-              <input type="text" class="form-control rounded-right" />
+              <input
+                id="search"
+                type="text"
+                class="form-control rounded-right"
+              />
               <div class="input-group-append d-none d-md-block">
-                <span class="input-group-text">Search</span>
+                <a href="./search.html" class="btn-search btn btn-primary"
+                  >SEARCH</a
+                >
               </div>
             </div>
-            <button class="my-2 d-md-none btn btn-danger" style="width: 100%;">
-              Search
-            </button>
+            <a
+              href="./search.html"
+              class="w-100 my-2 d-md-none btn text-white main-search"
+              >SEARCH</a
+            >
           </div>
           <button
-            class="d-flex justify-content-center my-2 btn btn-secondary mx-auto"
+            class="btn-explore d-flex justify-content-center my-2 btn mx-auto"
           >
             How it works
           </button>
         </div>
       </div>
-      <section class="container">
-        <p class="text-center text-danger">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      <section class="container mb-5">
+        <p class="text-uppercase font-weight-bold text-center orangered">
+          Using this application requires four easy steps
         </p>
         <div class="row">
           <div class="col-12 col-lg-6">
-            <div class="my-2 text-center">
+            <div class="my-2 text-center font-size2">
               <i class="fas fa-search"></i>
             </div>
             <div class="text-center my-2">
-              <small>good boy</small>
+              <small class="font-size1 text-uppercase font-weight-bold"
+                >1-Search</small
+              >
             </div>
             <p class="text-center pr-lg-5">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam
-              aperiam. Voluptatibus, voluptas quibusdam.
+              It's quite simple and straight forward, all you need to do is
+              enter a keyword in the seach input and hit the search button
+              afterward
             </p>
           </div>
           <div class="col-12 col-lg-6">
-            <div class="my-2 text-center">
-              <i class="fas fa-search"></i>
+            <div class="my-2 text-center font-size2">
+              <i class="fas fa-check-square"></i>
             </div>
             <div class="text-center my-2">
-              <small>good boy</small>
+              <small class="font-size1 text-uppercase font-weight-bold"
+                >2-select</small
+              >
             </div>
             <p class="text-center pl-lg-5">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam
-              aperiam. Voluptatibus, voluptas quibusdam.
+              After completing previous step, you did be presented with a new
+              page showing languages that matches your search keyword(s)
             </p>
           </div>
           <div class="col-12 col-lg-6">
-            <div class="my-2 text-center">
-              <i class="fas fa-search"></i>
+            <div class="my-2 text-center font-size2">
+              <i class="fas fa-file-pdf"></i>
             </div>
-            <div class="text-center my-2">
-              <small>good boy</small>
+            <div class="text-center my-2 font-size1">
+              <small class="font-size1 text-uppercase font-weight-bold"
+                >3-preview</small
+              >
             </div>
             <p class="text-center">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam
-              aperiam. Voluptatibus, voluptas quibusdam.
+              Feel free to click the details button on each of the search result
+              shown to preview and know more about about the specific language
             </p>
           </div>
           <div class="col-12 col-lg-6">
-            <div class="my-2 text-center">
-              <i class="fas fa-search"></i>
+            <div class="my-2 text-center font-size2">
+              <i class="fas fa-chalkboard-teacher"></i>
             </div>
             <div class="text-center my-2">
-              <small>good boy</small>
+              <small class="font-size1 text-uppercase font-weight-bold"
+                >4-learn</small
+              >
             </div>
             <p class="text-center">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam
-              aperiam. Voluptatibus, voluptas quibusdam.
+              By now you should have quite an understanding about the languages
+              you have choosen to learn. Happy Coding
             </p>
-          </div>
-        </div>
-      </section>
-      <section class="container-fluid">
-        <div class="row bg-primary">
-          <div class="col-sm-12 col-lg-8 py-3">
-            <div>
-              <h5>Good boy</h5>
-              <p>Good good boy</p>
-              <button>confirm boy</button>
-            </div>
-          </div>
-          <div class="col-sm-12 col-lg-4 py-3">
-            <img
-              height="40px"
-              width="40px"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRukdE1g0UAxQ93JXho9rAEnsLcozPt3_Bdmg&usqp=CAU"
-              alt=""
-              class="rounded-circle"
-            />
-          </div>
-        </div>
-        <div class="row bg-warning">
-          <div class="col-sm-12 col-lg-8">
-            <div>
-              <h5>Good boy</h5>
-              <p>Good good boy</p>
-              <button>confirm boy</button>
-            </div>
-          </div>
-          <div class="col-sm-12 col-lg-4">
-            <img
-              height="40px"
-              width="40px"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRukdE1g0UAxQ93JXho9rAEnsLcozPt3_Bdmg&usqp=CAU"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class="row bg-success">
-          <div class="col-sm-12 col-lg-8">
-            <div>
-              <h5>Good boy</h5>
-              <p>Good good boy</p>
-              <button>confirm boy</button>
-            </div>
-          </div>
-          <div class="col-sm-12 col-lg-4">
-            <img
-              height="40px"
-              width="40px"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRukdE1g0UAxQ93JXho9rAEnsLcozPt3_Bdmg&usqp=CAU"
-              alt=""
-            />
           </div>
         </div>
       </section>
     </main>
+    <footer>
+      <div class="d-none d-lg-block ligt-black">
+        <div class="container">
+          <div class="pt-4 d-flex">
+            <ul class="py-2 border-top border-bottom border-dark d-flex flex-1">
+              <li class="pl-2 flex-1">
+                <a class="text-white" href="#">HOME</a>
+              </li>
+              <li class="flex-1">
+                <a class="text-white" href="#">SEARCH</a>
+              </li>
+              <li class="flex-1">
+                <a class="text-white" href="#">ABOUT US</a>
+              </li>
+              <li class="flex-1">
+                <a class="text-white" href="#">ADVERTISE</a>
+              </li>
+            </ul>
+            <div>logo logo</div>
+            <ul class="py-2 border-top border-bottom border-dark d-flex flex-1">
+              <li class="pl-2 flex-1">
+                <a class="text-white" href="#">FACEBOOK</a>
+              </li>
+              <li class="flex-1">
+                <a class="text-white" href="#">TWITTER</a>
+              </li>
+              <li class="flex-1">
+                <a class="text-white" href="#">BLOG</a>
+              </li>
+              <li class="flex-1">
+                <a class="text-white" href="#">GOOGLE+</a>
+              </li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="d-none d-lg-block col-lg-4">
+              <h6 class="text-white text-center text-uppercase my-3">
+                Subscribe
+              </h6>
+              <div class="input-group">
+                <input
+                  id="search"
+                  type="text"
+                  class="form-control rounded-right"
+                />
+                <div class="input-group-append d-none d-md-block">
+                  <button class="btn btn-secondary">Search</button>
+                </div>
+              </div>
+            </div>
+            <div class="d-none d-lg-block col-lg-4">
+              <h6 class="text-white text-center text-uppercase my-3">
+                contact
+              </h6>
+              <p class="text-muted text-center">
+                Have a question or suggestion for improvement? <br />
+                <span class="orangered">somoye.ayotunde@gmail.com</span>
+              </p>
+            </div>
+            <div class="d-none d-lg-block col-lg-4">
+              <h6 class="text-white text-center text-uppercase my-3">about</h6>
+              <p class="text-muted text-center">
+                Mechanical Engineer turned Full-Stack Developer currently
+                looking for new opportunities as a Full-stack, Back-end, or
+                Front-end Developer using react and rails
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="px-2 px-md-5 d-flex justify-content-between bg-dark pt-3">
+        <ul class="d-flex">
+          <li class="pr-1">
+            <a class="text-muted" href="#"
+              ><i class="fab fa-facebook-square"></i
+            ></a>
+          </li>
+          <li class="px-1 px-md-2">
+            <a href="#" class="text-muted"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="px-1 px-md-2">
+            <a href="#" class="text-muted"><i class="fab fa-youtube"></i></a>
+          </li>
+          <li class="px-1 px-md-2">
+            <a href="#" class="text-muted"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li class="px-1 px-md-2">
+            <a href="#" class="text-muted"><i class="fas fa-rss"></i></a>
+          </li>
+          <li class="px-1 px-md-2">
+            <a href="#" class="text-muted"><i class="fas fa-envelope"></i></a>
+          </li>
+        </ul>
+        <div class="d-flex">
+          <ul class="d-flex">
+            <li class="px-1 px-md-2">
+              <a class="text-muted" href="#">events</a>
+            </li>
+            <li class="px-1 px-md-2">
+              <a class="text-muted" href="#">about</a>
+            </li>
+            <li class="px-1 px-md-2">
+              <a class="text-muted" href="#">advertise</a>
+            </li>
+            <li class="px-1 px-md-2">
+              <a class="text-muted" href="#">jobs</a>
+            </li>
+            <li class="px-1 px-md-2">
+              <a class="text-muted" href="#">contact</a>
+            </li>
+          </ul>
+          <p class="pl-3 d-none d-lg-inline text-muted">
+            ©2020 Capstone Project Made with
+            <span class="orangered">♥</span> by Somoye
+          </p>
+        </div>
+      </div>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script

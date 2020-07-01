@@ -17,8 +17,8 @@ ul {
   list-style: none;
 }
 
-nav {
-  background-color: red;
+nav,.main-search {
+  background-color: orangered;
 }
 
 .jumbotron {
@@ -44,23 +44,50 @@ nav {
   text-transform: uppercase;
 }
 
-.filter-jumbotron {
+.filter-jumbotron,
+.btn-explore {
   background-color: rgb(224, 221, 221);
 }
 
+.search {
+  background-color: rgba(236, 228, 228, 0.8);
+}
+
+.search-label,
 .form-group label {
   font-size: small;
   font-weight: bold;
 }
 
-.card-img-top,.card-body{
+.card-img-top,
+.card-body {
   min-height: 35vh;
   max-height: 35vh;
 }
 
-.card-body{
+.card-body {
   min-height: 40vh;
   max-height: 40vh;
+}
+
+.orangered{
+  color: orangered;
+}
+
+.ligt-black{
+  background-color: #131313
+}
+
+.flex-1{
+  flex: 1;
+}
+
+.font-size1{
+  font-size: 1em;
+}
+
+.font-size2{
+  font-size: 1.5em;
 }
 
 @media screen and (min-width: 768px) {
@@ -80,6 +107,11 @@ nav {
     /* height: calc(50vh - 50px); */
     padding: 10vh 0;
   }
+  .btn-search {
+    background-color: orangered;
+    border: none;
+  }
+
   .language {
     display: grid;
     grid-template-columns: 2fr 3fr;

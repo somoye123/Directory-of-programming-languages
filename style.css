@@ -17,8 +17,9 @@ ul {
   list-style: none;
 }
 
-nav,.main-search {
-  background-color: orangered;
+nav,
+.main-search {
+  background-color: #d4564a;
 }
 
 .jumbotron {
@@ -70,25 +71,39 @@ nav,.main-search {
   max-height: 40vh;
 }
 
-.orangered{
-  color: orangered;
+.orangered {
+  color: #d4564a;
 }
 
-.ligt-black{
-  background-color: #131313
+.ligt-black {
+  background-color: #131313;
 }
 
-.flex-1{
+.flex-1 {
   flex: 1;
 }
 
-.font-size1{
+.font-size1 {
   font-size: 1em;
 }
 
-.font-size2{
+.font-size2 {
   font-size: 1.5em;
 }
+
+.small-font {
+  font-size: small;
+}
+
+.footer-logo{
+width: 3em;
+height: 3em;
+}
+
+.nav-logo{
+  width: 10em;
+  height: 3em;
+  }
 
 @media screen and (min-width: 768px) {
   .logo {
@@ -96,7 +111,6 @@ nav,.main-search {
   }
   .jumbotron {
     height: 50vh;
-    /* height: calc(50vh - 50px); */
     padding: 3vh 0;
   }
 }
@@ -104,11 +118,15 @@ nav,.main-search {
 @media screen and (min-width: 992px) {
   .jumbotron {
     height: 65vh;
-    /* height: calc(50vh - 50px); */
     padding: 10vh 0;
   }
   .btn-search {
-    background-color: orangered;
+    background-color: #d4564a;
+    border: none;
+  }
+
+  .btn-search:hover {
+    background-color: #d4564a;
     border: none;
   }
 

@@ -26,34 +26,40 @@
 
     <link rel="stylesheet" href="style.css" />
 
-    <title>Directory of schools</title>
+    <title>Directory of programming languages</title>
   </head>
   <body>
     <header>
       <nav
-        class="d-flex flex-column align-items-center flex-md-row justify-content-lg-between px-md-5"
+        class="d-flex flex-column align-items-center flex-md-row justify-content-lg-between px-md-5 py-1"
       >
-        <div class="logo">good boy</div>
+        <a class="logo" href="./index.html">
+          <img
+            class="nav-logo"
+            src="./assets/images/logo-text.png"
+            alt="brand logo with name"
+          />
+        </a>
         <ul class="d-flex">
-          <li class="px-4">
+          <li class="px-4 pt-md-2">
             <a href="#" class="text-white">
               <i class="fas fa-search"></i>
-              <span class="d-none d-lg-inline">Schools</span>
+              <span class="d-none d-lg-inline">languages</span>
             </a>
           </li>
-          <li class="px-4">
+          <li class="px-4 pt-md-2">
             <a href="#" class="text-white">
               <i class="fas fa-rss"></i>
               <small class="d-none d-lg-inline">About</small>
             </a>
           </li>
-          <li class="px-4">
+          <li class="px-4 pt-md-2">
             <a href="#" class="text-white">
               <i class="fas fa-user"></i>
               <span class="d-none d-lg-inline">Blog</span>
             </a>
           </li>
-          <li class="px-4">
+          <li class="px-4 pt-md-2">
             <a href="#" class="text-white">
               <i class="fas fa-bars"></i>
               <small class="d-none d-lg-inline">More</small>
@@ -110,7 +116,7 @@
                 >1-Search</small
               >
             </div>
-            <p class="text-center pr-lg-5">
+            <p class="text-center px-lg-5 text-muted">
               It's quite simple and straight forward, all you need to do is
               enter a keyword in the seach input and hit the search button
               afterward
@@ -125,7 +131,7 @@
                 >2-select</small
               >
             </div>
-            <p class="text-center pl-lg-5">
+            <p class="text-center px-lg-5 text-muted">
               After completing previous step, you did be presented with a new
               page showing languages that matches your search keyword(s)
             </p>
@@ -139,7 +145,7 @@
                 >3-preview</small
               >
             </div>
-            <p class="text-center">
+            <p class="text-center px-lg-5 text-muted">
               Feel free to click the details button on each of the search result
               shown to preview and know more about about the specific language
             </p>
@@ -153,7 +159,7 @@
                 >4-learn</small
               >
             </div>
-            <p class="text-center">
+            <p class="text-center px-lg-5 text-muted">
               By now you should have quite an understanding about the languages
               you have choosen to learn. Happy Coding
             </p>
@@ -179,7 +185,11 @@
                 <a class="text-white" href="#">ADVERTISE</a>
               </li>
             </ul>
-            <div>logo logo</div>
+            <img
+              class="footer-logo"
+              src="./assets/images/logo-only.png"
+              alt=""
+            />
             <ul class="py-2 border-top border-bottom border-dark d-flex flex-1">
               <li class="pl-2 flex-1">
                 <a class="text-white" href="#">FACEBOOK</a>
@@ -204,7 +214,7 @@
                 <input
                   id="search"
                   type="text"
-                  class="form-control rounded-right"
+                  class="form-control rounded-right bg-dark border-0"
                 />
                 <div class="input-group-append d-none d-md-block">
                   <button class="btn btn-secondary">Search</button>
@@ -215,14 +225,14 @@
               <h6 class="text-white text-center text-uppercase my-3">
                 contact
               </h6>
-              <p class="text-muted text-center">
+              <p class="text-muted text-center small-font">
                 Have a question or suggestion for improvement? <br />
                 <span class="orangered">somoye.ayotunde@gmail.com</span>
               </p>
             </div>
             <div class="d-none d-lg-block col-lg-4">
               <h6 class="text-white text-center text-uppercase my-3">about</h6>
-              <p class="text-muted text-center">
+              <p class="text-muted text-center small-font">
                 Mechanical Engineer turned Full-Stack Developer currently
                 looking for new opportunities as a Full-stack, Back-end, or
                 Front-end Developer using react and rails
@@ -279,22 +289,5 @@
         </div>
       </div>
     </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>

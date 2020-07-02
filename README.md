@@ -1,4 +1,5 @@
 # Directory-of-programming-Languages
+
 This project is a model of an online directory of programming languages. It is based on the prototype made by Mathew Njuguna and others on Behance
 
 This project is my HTML & CSS Capstone Project in Microverse.
@@ -17,6 +18,10 @@ The goal in this project was to apply all the basic HTML & CSS functions the bes
 
 [Live Demo Link](https://rawcdn.githack.com/somoye123/Directory-of-schools/54b57ed0c65feb55adee47521998577d0eb34785/index.html)
 
+## Demo Video
+
+[Application Demo Video](https://www.loom.com/share/754712155f4d498788fe619b9a729b28)
+
 ## Getting Started
 
 To get a local copy of the repository please run the following commands on your terminal:
@@ -29,6 +34,7 @@ $ cd <folder>
 $ git clone https://github.com/somoye123/Directory-of-programming-languages.git
 
 ```
+
 ## Author
 
 👤 **Somoye Ayotunde**

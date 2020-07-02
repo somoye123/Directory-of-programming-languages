@@ -31,20 +31,6 @@ nav,
   background-position: 50% 50%;
 }
 
-.details-title {
-  font-weight: 300;
-}
-
-.language {
-  width: 85vw;
-  max-width: 1170px;
-}
-
-.language p {
-  font-size: small;
-  text-transform: uppercase;
-}
-
 .filter-jumbotron,
 .btn-explore {
   background-color: rgb(224, 221, 221);
@@ -105,6 +91,33 @@ nav,
   height: 3em;
 }
 
+.web-game-mobile {
+  background-color: #e17e65;
+}
+
+.quality-assurance {
+  background-color: #98a4a5;
+}
+
+.information-security {
+  background-color: #509bd7;
+}
+
+.web-game-mobile img,
+.quality-assurance img,
+.information-security img {
+  width: 15em;
+  height: 13em;
+}
+
+.details-image {
+  height: 50vh;
+}
+
+.margin-top-25 {
+  margin-top: 20vh;
+}
+
 @media screen and (min-width: 768px) {
   .logo {
     width: 30vw;
@@ -114,28 +127,17 @@ nav,
     height: 50vh;
     padding: 3vh 0;
   }
+
+  .no-gutters > .col,
+  .no-gutters > [class*="col-"] {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
 }
 
 @media screen and (min-width: 992px) {
   .jumbotron {
     height: 65vh;
     padding: 10vh 0;
-  }
-
-  .btn-search {
-    background-color: #d4564a;
-    border: none;
-  }
-
-  .btn-search:hover {
-    background-color: #d4564a;
-    border: none;
-  }
-
-  .language {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    gap: 3rem;
-    align-items: center;
   }
 }

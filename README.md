@@ -16,7 +16,7 @@ The goal in this project was to apply all the basic HTML & CSS functions the bes
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/somoye123/Directory-of-schools/54b57ed0c65feb55adee47521998577d0eb34785/index.html)
+[Live Demo Link](https://rawcdn.githack.com/somoye123/Directory-of-programming-languages/039e50a6e8571d7bd41734803a3a60634425d159/index.html)
 
 ## Demo Video
 

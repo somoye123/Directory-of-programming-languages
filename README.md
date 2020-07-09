@@ -35,13 +35,13 @@ $ git clone https://github.com/somoye123/Directory-of-programming-languages.git
 
 ```
 
-## Author
+## Authors
 
-👤 **Somoye Ayotunde**
+👤 **Somoye**
 
-- Github: [@somoye123](https://github.com/somoye123)
-- Twitter: [@twitterhandle](https://twitter.com/ayotunde_197)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/somoye-ayotunde-03a471161)
+- Github:[@somoye123](https://github.com/somoye123)
+- Twitter:[@ayotunde_197](https://twitter.com/ayotunde_197)
+- LinkedIn:[Somoye Ayotunde](https://www.linkedin.com/in/somoye-ayotunde-03a471161)
 
 ## 🤝 Contributing
 
